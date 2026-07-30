@@ -1,8 +1,26 @@
 aid: mechanical-orchard
 name: Mechanical Orchard
-description: Mechanical Orchard is a company surfaced as a portfolio company of bloomberg-beta, emergence-capital,
-  gv and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting
-  the enrichment pipeline.
+description: Mechanical Orchard is an enterprise software company, founded by Pivotal
+  veterans, that modernizes mission-critical legacy and mainframe systems. Its flagship
+  platform, Imogen, uses AI to observe how legacy applications actually behave, then
+  incrementally rewrites them into modern, cloud-ready code while continuously verifying
+  that behavior is preserved so nothing breaks during migration. The company pairs
+  the Imogen platform with professional services and a free proof of concept, integrates
+  with AWS Transform and Google Cloud, and serves both commercial enterprises and
+  government agencies looking to retire risky COBOL and mainframe estates. It is backed
+  by Bloomberg Beta, Emergence Capital, and GV.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6582d7e2f6a63e5e80e6d1b8/65c356e9959e2ee8246b0896_Mechanical-Orchard.jpg
 url: https://raw.githubusercontent.com/api-evangelist/mechanical-orchard/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Mainframe Modernization
+- Legacy Modernization
+- Artificial Intelligence
+- Cloud Migration
+- Enterprise Software
+- COBOL
+- Government
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +51,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.mechanical-orchard.com/
+- type: Blog
+  url: https://www.mechanical-orchard.com/insights
+- type: Support
+  url: https://www.mechanical-orchard.com/contact
+- type: PrivacyPolicy
+  url: https://www.mechanical-orchard.com/privacy-notice
+- type: TermsOfService
+  url: https://www.mechanical-orchard.com/term-of-use
+- type: GitHubOrganization
+  url: https://github.com/mechanical-orchard
+- type: DomainSecurity
+  url: security/mechanical-orchard-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
