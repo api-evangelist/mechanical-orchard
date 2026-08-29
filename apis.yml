@@ -9,6 +9,17 @@ description: Mechanical Orchard is an enterprise software company, founded by Pi
   with AWS Transform and Google Cloud, and serves both commercial enterprises and
   government agencies looking to retire risky COBOL and mainframe estates. It is backed
   by Bloomberg Beta, Emergence Capital, and GV.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
